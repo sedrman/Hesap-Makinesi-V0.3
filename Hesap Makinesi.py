@@ -13,46 +13,53 @@ if  islem==("toplama") or islem==("1") or islem==("Toplama"):
     x=input("1. Sayıyı Giriniz: ")
     y=input("2. Sayıyı Giriniz: ")
     z=(int(x)+int(y))
+    print(" ")
     print(x,"+",y,"=",z)
 
 elif  islem==("çıkarma") or islem==("2") or islem==("Çıkarma"):
     x=input("1. Sayıyı Giriniz: ")
     y=input("2. Sayıyı Giriniz: ")
     z=(int(x)-int(y))
+    print(" ")
     print(x,"-",y,"=",z)
     
 elif  islem==("çarpma") or islem==("3") or islem==("Çarpma"):
     x=input("1. Sayıyı Giriniz: ")
     y=input("2. Sayıyı Giriniz: ")
     z=(int(x)*int(y))
+    print(" ")
     print(x,"x",y,"=",z)
     
 elif  islem==("bölme") or islem==("4") or islem==("Bölme"):
     x=input("1. Sayıyı Giriniz: ")
     y=input("2. Sayıyı Giriniz: ")
     z=(int(x)/int(y))
+    print(" ")
     print(x,"÷",y,"=",z)
 
 elif  islem==("üs alma") or islem==("5") or islem==("Üs alma") or islem==("Üs") or  islem==("üs") or islem==("Üs Alma"):
     x=input("1. Sayıyı Giriniz: ")
     y=input("2. Sayıyı Giriniz: ")
     z=(int(x)**int(y))
+    print(" ")
     print(x,"^",y,"=",z)
 
 elif  islem==("mod alma") or islem==("6") or islem==("Mod alma") or islem==("Mod") or  islem==("mod") or islem==("Mod Alma"):
     x=input("1. Sayıyı Giriniz: ")
     y=input("2. Sayıyı Giriniz: ")
     z=(int(x)%int(y))
+    print(" ")
     print(x,"%",y,"=",z)
 
 elif  islem==("karekök alma") or islem==("7") or islem==("Karekök alma") or islem==("karekök") or islem==("Karkök") or islem==("kare") or islem==("Kare"):
     x=input("Sayıyı Giriniz: ")
     z=sqrt(int(x))
+    print(" ")
     print("√",x,"=",z)
 
 else:
     print(" ")
     print("Lütfen Geçerli bir İşlem Giriniz")
     exit(0)
-
+print(" ")
 input("Çıkmak İçin Herhangi Bir Tuşa Basın: ")
