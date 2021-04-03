@@ -51,5 +51,8 @@ elif  islem==("karekök alma") or islem==("7") or islem==("Karekök alma") or is
     print("√",x,"=",z)
 
 else:
+    print(" ")
     print("Lütfen Geçerli bir İşlem Giriniz")
     exit(0)
+
+input("Çıkmak İçin Herhangi Bir Tuşa Basın: ")
